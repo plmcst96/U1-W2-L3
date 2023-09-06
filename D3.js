@@ -230,4 +230,14 @@ for (let i = 0; i < femaleCharacters.length; i++) {
 const validIndex = Math.floor(Math.random() * 10)
 const randomCharacters = starWarsCharacters[validIndex]
 
-console.log(randomCharacters)
+console.log(
+  "Ciao, io mi chiamo " +
+    randomCharacters.name +
+    ",sono alto " +
+    randomCharacters.height +
+    " e ho dei bellissimi capelli di color" +
+    randomCharacters.hair_color +
+    ". Non sono molto pesante " +
+    randomCharacters.mass +
+    " tu che ne pensi?"
+)
