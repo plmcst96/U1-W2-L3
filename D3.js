@@ -32,7 +32,7 @@ const starWarsCharacters = [
   {
     name: "Darth Vader",
     height: 202,
-    mass: 200,
+    mass: 132,
     hair_color: "none",
     skin_color: "white",
     eye_color: "yellow",
@@ -194,11 +194,11 @@ console.log(crewMass)
 */
 if (crewMass < 500) {
   console.log("Ship is under loaded")
-} else if (700 > crewMass > 500) {
+} else if (crewMass > 500 && 700) {
   console.log("Ship is half loaded")
-} else if (900 > crewMass > 700) {
+} else if (crewMass > 700 && 800) {
   console.log("Warning: Load is over 700")
-} else if (1000 > crewMass > 900) {
+} else if (crewMass > 900 && 1000) {
   console.log("Critical Load: Over 900")
 } else if (crewMass > 1000) {
   console.log("DANGER! OVERLOAD ALERT: escape from ship now!")
