@@ -222,3 +222,4 @@ console.log(starWarsCharacters)
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+console.log(starWarsCharacters[Math.ceil(Math.random() * 10) - 1])
