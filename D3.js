@@ -210,10 +210,10 @@ if (crewMass < 500) {
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "n/a") {
-    starWarsCharacters.splice(starWarsCharacters[i], 0, "robot")
+    starWarsCharacters[i].gender = "robot"
   }
 }
-console.log(starWarsCharacters.gender)
+console.log(starWarsCharacters)
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
