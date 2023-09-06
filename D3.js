@@ -191,16 +191,16 @@ console.log(crewMass)
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
-if (crewMass < 500) {
-  console.log("Ship is under loaded")
-} else if (crewMass > 500 && 700) {
-  console.log("Ship is half loaded")
-} else if (crewMass > 700 && 800) {
-  console.log("Warning: Load is over 700")
-} else if (crewMass > 900 && 1000) {
-  console.log("Critical Load: Over 900")
-} else if (crewMass > 1000) {
+if (crewMass > 1000) {
   console.log("DANGER! OVERLOAD ALERT: escape from ship now!")
+} else if (crewMass > 900) {
+  console.log("Critical Load: Over 900")
+} else if (crewMass > 700) {
+  console.log("Warning: Load is over 700")
+} else if (crewMass > 500) {
+  console.log("Ship is half loaded")
+} else if (crewMass < 500) {
+  console.log("Ship is under loaded")
 }
 
 /* ESERCIZIO 8
